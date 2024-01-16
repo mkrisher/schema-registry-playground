@@ -1,0 +1,21 @@
+{
+	"schema" : {
+		"type" : "record",
+		"name" : "Payment",
+		"namespace" : "my.examples",
+		"fields" : [
+			{
+				"name" : "id",
+				"type" : "string"
+			},
+			{
+				"name" : "amount",
+				"type" : "double"
+			},
+      {
+				"name" : "type",
+				"type" : "string"
+			}
+		]
+	}
+}
